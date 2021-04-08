@@ -1,0 +1,14 @@
+.main-content__graph {;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 24px;
+    box-sizing: border-box;
+    flex-wrap: wrap
+}
+
+.main-content__graph_image {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+}

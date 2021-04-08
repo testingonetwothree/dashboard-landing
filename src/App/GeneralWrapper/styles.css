@@ -1,0 +1,29 @@
+.general-background {
+    position: relative;
+    display: flex;
+    flex-shrink: 1;
+    background: #E2E7F5;
+    justify-content: center;
+    padding: 25px 0;
+    overflow: hidden;
+    max-height: 100vh;
+}
+
+.general-wrapper {
+    display: flex;
+    width: 1400px;
+    flex-shrink: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: #FFFFFF;
+    box-shadow: 0 8px 28px -6px rgba(0, 0, 0, 0.12), 0 18px 88px -4px rgba(0, 0, 0, 0.14);
+    border-radius: 10px;
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.general-wrapper::-webkit-scrollbar {
+    display: none;
+}

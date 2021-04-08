@@ -1,0 +1,55 @@
+.main-content__chart-data {
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+}
+
+.main-content__chart-data_title {
+    display: flex;
+    color: #2C2C2C;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 8px;
+}
+
+.main-content__chart-data_subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-content__chart-data_type {
+    display: flex;
+    color: #8E8E8E;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 16px;
+}
+
+.main-content__chart-data_background {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 4px;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+.main-content__chart-data_icon {
+    display: flex;
+    margin-right: 4px;
+}
+
+.main-content__chart-data_tendency {
+    display: flex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+

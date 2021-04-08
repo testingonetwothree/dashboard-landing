@@ -1,0 +1,48 @@
+.main-posts__posts-header_wrapper {
+    display: flex;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 22px 33px 0 33px;
+    margin: 0 2px;
+}
+
+.main-posts__posts-header_content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.main-posts__posts-header_text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2C2C2C;
+}
+
+.main-posts__posts-header_filter-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.main-posts__posts-header_filter-icon {
+    padding: 8px;
+}
+
+.main-posts__posts-header_filter-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0C4284;
+    padding-right: 8px;
+}

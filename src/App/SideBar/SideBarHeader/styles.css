@@ -1,0 +1,24 @@
+.side-bar__logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.side-bar__logo_square {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 24px 73px 0 73px;
+    width: 100px;
+    height: 100px;
+    background: black
+}
+
+.side-bar__logo_square-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 6px 3px;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 18px;
+}

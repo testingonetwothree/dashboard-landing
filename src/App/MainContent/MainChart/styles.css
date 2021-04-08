@@ -1,0 +1,14 @@
+.main-content__chart {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 48px 16px;
+    flex: 1 1 auto;
+}
+
+.main-content__chart-data_border {
+    display: flex;
+    border: 1px solid #DDDDDD;
+    justify-content: space-between;
+    margin: 0 20px;
+}

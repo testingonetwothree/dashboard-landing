@@ -1,0 +1,23 @@
+.side-bar__footer {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    background: #1473E6;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+.side-bar__footer_icon {
+    display: flex;
+    margin-right: 8px;
+}
+
+.side-bar__footer_text {
+    display: flex;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}

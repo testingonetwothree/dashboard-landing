@@ -1,0 +1,41 @@
+.graph__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.graph__header_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2C2C2C;
+}
+
+.graph__header_calendar {
+    font-family: 'SF Pro Display', serif;
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    margin: 8px 0;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.graph__header_calendar-icon {
+    margin-right: 8px;
+}
+
+.graph__header_calendar-day {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0C4284;
+}

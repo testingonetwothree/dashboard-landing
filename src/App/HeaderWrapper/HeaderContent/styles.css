@@ -1,0 +1,12 @@
+.header__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__border {
+    border: 1px solid #DDDDDD;
+    transform: rotate(90deg);
+    padding: 0 24px;
+}

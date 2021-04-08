@@ -1,0 +1,10 @@
+.header__avatar {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin-right: 26px;
+}
